@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="Sam Gianan" content="width=device-width">
+    <title>3rd Graded Exercise</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      * {
+        font-family: sans-serif;
+        text-decoration: none;
+        color: white;
+        padding: 2px;
+      }
+      .link1 {
+        margin: 5px;
+        width: 40%;
+        height: 40%;
+        background-color: darkblue;
+        color: white;
+      }
+      .link2 {
+        margin: 5px;
+        width: 40%;
+        height: 40%;
+        background-color: orange;
+        color: white;
+      }
+      .first {
+        margin: 5px;
+        padding: 0px;
+        clear: left;
+        width: 20%;
+        padding-bottom: 50px;
+        color: black;
+        border: 2px solid black;
+      }
+      .second {
+        margin: 5px;
+        padding: 0px;
+        clear: left;
+        width: 20%;
+        margin-right: 50px;
+        padding-bottom: 50px;
+        color: black;
+        border: 2px solid black;
+      }
+      .link1:link {
+        background-color: white;
+      }
+      .link1:visited {
+        background-color: purple;
+      }
+      .link1:hover {
+        background-color: yellow;
+      }
+      .link1:active {
+        background-color: red;
+      }
+      .link2:link {
+        background-color: black;
+      }
+      .link2:visited {
+        background-color: pink;
+      }
+      .link2:hover {
+        background-color: red;
+      }
+      .link2:active {
+        background-color: blue;
+      }
+      .first:target {
+        color: white;
+        background-color: green;
+        border-width: 0px;
+      }
+      .second:target {
+        background-color: gray;
+        color: yellow;
+        border: 10px dotted green;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="link1" href="#div1"> First Link </a>
+    <a class="link2" href="#div2"> Second Link </a>
+    <br>
+    <div> <p class="first" id="div1"> Div 1 here </p>    
+    <br>
+    <div> <p class="second" id="div2"> Div 2 here </p>
+  </body>
+</html>
